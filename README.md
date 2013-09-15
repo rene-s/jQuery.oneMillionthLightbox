@@ -11,6 +11,19 @@ I just did this for learning purposes. There are better or more compatible imple
 2. Knows lightboxed image dimension before the image gets loaded (because you must encode it in the file name, haha)
 3. That's about it.
 
+# Demo
+
+<a class="lightbox" title="RIA web app, image #1"
+href="//www.reneschmidt.de/stash/img/customers/ria_web_app1_800x553.png"><img
+src="//www.reneschmidt.de/stash/img/customers/ria_web_app1_150x150.png"
+alt="RIA web app, image #1" /></a><a class="lightbox" title="RIA web app, image #2"
+href="//www.reneschmidt.de/stash/img/customers/ria_web_app2_800x553.png"><img
+src="//www.reneschmidt.de/stash/img/customers/ria_web_app2_150x150.png"
+alt="RIA web app, image #2" /></a><a class="lightbox" title="RIA web app, image #3"
+href="//www.reneschmidt.de/stash/img/customers/ria_web_app3_800x328.png"><img
+src="//www.reneschmidt.de/stash/img/customers/ria_web_app3_150x150.png"
+alt="RIA web app, image #3" /></a>
+
 # Download
 
 [Source can be found and downloaded from Github](https://github.com/rene-s/jQuery.oneMillionthLightbox)
@@ -79,5 +92,4 @@ For every image that you want to have lightboxed
 5. The a tag should have a title attribute
 
 If you do not like that... Well, you don't have to. There are LOADS of other fine lightbox implementations out there.
-Use either those, change this implementation for yourself (and regard the licence) or pay me to alter it.
-I am available [for hire](mailto:lightbox@reneschmidt.de).
+Use either those, change this implementation for yourself (and regard the licence) or pay me to alter it. I am available [for hire](mailto:lightbox@reneschmidt.de).
