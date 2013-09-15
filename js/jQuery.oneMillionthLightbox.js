@@ -80,6 +80,7 @@
     }, overlayStyles || {});
 
     imgStyles = $.extend({
+      boxShadow: "10px 10px 10px #111",
       position: "fixed",
       marginRight: "auto",
       maxWidth: "90%",
