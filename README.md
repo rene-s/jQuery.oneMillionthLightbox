@@ -14,15 +14,24 @@ I just did this for learning purposes. There are better or more compatible imple
 # Demo
 
 <a class="lightbox" title="RIA web app, image #1"
-href="//www.reneschmidt.de/stash/img/customers/ria_web_app1_800x553.png"><img
-src="//www.reneschmidt.de/stash/img/customers/ria_web_app1_150x150.png"
+href="https://www.reneschmidt.de/stash/img/customers/ria_web_app1_800x553.png"><img
+src="https://www.reneschmidt.de/stash/img/customers/ria_web_app1_150x150.png"
 alt="RIA web app, image #1" /></a><a class="lightbox" title="RIA web app, image #2"
-href="//www.reneschmidt.de/stash/img/customers/ria_web_app2_800x553.png"><img
-src="//www.reneschmidt.de/stash/img/customers/ria_web_app2_150x150.png"
+href="https://www.reneschmidt.de/stash/img/customers/ria_web_app2_800x553.png"><img
+src="https://www.reneschmidt.de/stash/img/customers/ria_web_app2_150x150.png"
 alt="RIA web app, image #2" /></a><a class="lightbox" title="RIA web app, image #3"
-href="//www.reneschmidt.de/stash/img/customers/ria_web_app3_800x328.png"><img
-src="//www.reneschmidt.de/stash/img/customers/ria_web_app3_150x150.png"
+href="https://www.reneschmidt.de/stash/img/customers/ria_web_app3_800x328.png"><img
+src="https://www.reneschmidt.de/stash/img/customers/ria_web_app3_150x150.png"
 alt="RIA web app, image #3" /></a>
+
+# Compatibility
+
+Please bear in mind that this is a personal project of mine and I am content with support only for the most current
+browsers.
+
+- Chrome 28
+- Firefox 23
+- Internet Explorer 10
 
 # Download
 
