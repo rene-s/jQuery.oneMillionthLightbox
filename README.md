@@ -13,6 +13,8 @@ I just did this for learning purposes. There are better or more compatible imple
 
 # Demo
 
+Go to [my website](https://reneschmidt.de/wiki/index.php/page/view/OneMillionthLightbox,Start#toc-Demo) for a working demo.
+
 <a class="lightbox" title="RIA web app, image #1"
 href="https://www.reneschmidt.de/stash/img/customers/ria_web_app1_800x553.png"><img
 src="https://www.reneschmidt.de/stash/img/customers/ria_web_app1_150x150.png"
