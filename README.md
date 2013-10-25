@@ -15,16 +15,26 @@ I just did this for learning purposes. There are better or more compatible imple
 
 Go to [my website](https://reneschmidt.de/wiki/index.php/page/view/OneMillionthLightbox,Start#toc-Demo) for a working demo.
 
-<a class="lightbox" title="RIA web app, image #1"
-href="https://www.reneschmidt.de/stash/img/customers/ria_web_app1_800x553.png"><img
-src="https://www.reneschmidt.de/stash/img/customers/ria_web_app1_150x150.png"
-alt="RIA web app, image #1" /></a><a class="lightbox" title="RIA web app, image #2"
-href="https://www.reneschmidt.de/stash/img/customers/ria_web_app2_800x553.png"><img
-src="https://www.reneschmidt.de/stash/img/customers/ria_web_app2_150x150.png"
-alt="RIA web app, image #2" /></a><a class="lightbox" title="RIA web app, image #3"
-href="https://www.reneschmidt.de/stash/img/customers/ria_web_app3_800x328.png"><img
-src="https://www.reneschmidt.de/stash/img/customers/ria_web_app3_150x150.png"
-alt="RIA web app, image #3" /></a>
+<div class="row">
+ <div class="col-sm-6 col-md-3">
+    <a  class="lightbox thumbnail" title="Photo #1"
+href="https://www.reneschmidt.de/stash/img/demo/photo1_2034x1349.jpg"><img
+src="https://www.reneschmidt.de/stash/img/demo/photo1_226x150.jpg"
+alt="Photo #1" /></a>
+   </div>
+<div class="col-sm-6 col-md-3">
+<a class="lightbox thumbnail" title="Photo #2"
+href="https://www.reneschmidt.de/stash/img/demo/photo2_3264x2448.jpg"><img
+src="https://www.reneschmidt.de/stash/img/demo/photo2_200x150.jpg"
+alt="Photo #2" /></a>
+ </div>
+<div class="col-sm-6 col-md-3">
+    <a class="lightbox thumbnail" title="Photo #3"
+href="https://www.reneschmidt.de/stash/img/demo/photo3_501x300.jpg"><img
+src="https://www.reneschmidt.de/stash/img/demo/photo3_251x150.jpg"
+alt="Photo #3" /></a>
+ </div>
+</div>
 
 # Compatibility
 
@@ -34,7 +44,8 @@ browsers.
 - Chrome 28
 - Firefox 23
 - Internet Explorer 10
-- Internet Explorer 8 (limited support, no visible overlay)
+- Internet Explorer 8 (limited support)
+- Opera 16
 
 # Download
 
@@ -56,34 +67,34 @@ without paying me. I don't like that.
 
 ```js
 $(document).ready(function () {
-  $("body").oneMillionthLightbox(config, overlayStyles, imageStyles); // all params are optional
+ $("body").oneMillionthLightbox(config, overlayStyles, imageStyles); // all params are optional
 });
 ```
 ## Supported attributes and default values
 
 ```js
 config: {
-  fadeInDuration: 500 // ms
+ fadeInDuration: 500 // ms
 },
 overlayStyles: {
-   position: "fixed",
-   display: "none",
-   top: 0,
-   left: 0,
-   right: 0,
-   bottom: 0,
-   zIndex: 999998,
-   backgroundColor: "rgba(0,0,0,0.8)"
+  position: "fixed",
+  display: "none",
+  top: 0,
+  left: 0,
+  right: 0,
+  bottom: 0,
+  zIndex: 999998,
+  backgroundColor: "rgba(0,0,0,0.8)"
 },
 imageStyles: {
-  position: "fixed",
-  marginRight: "auto",
-  maxWidth: "90%",
-  maxHeight: "90%",
-  visibility: "hidden",
-  left: '50%',
-  zIndex: 999999,
-  top: '50%'
+ position: "fixed",
+ marginRight: "auto",
+ maxWidth: "90%",
+ maxHeight: "90%",
+ visibility: "hidden",
+ left: '50%',
+ zIndex: 999999,
+ top: '50%'
 }
 ```
 
@@ -91,7 +102,7 @@ For every image that you want to have lightboxed
 
 ```html
 <a class="lightbox" href="target_image_800x600.png" title="title of image">
- <img src="thumbnail_of_target_150x150.png" alt="alt text"/>
+<img src="thumbnail_of_target_150x150.png" alt="alt text"/>
 </a>
 ```
 
