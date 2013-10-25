@@ -34,6 +34,7 @@ browsers.
 - Chrome 28
 - Firefox 23
 - Internet Explorer 10
+- Internet Explorer 8 (limited support, no visible overlay)
 
 # Download
 

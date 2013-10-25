@@ -81,6 +81,8 @@
 
     imgStyles = $.extend({
       boxShadow: "10px 10px 10px #111",
+      zoom: 1,
+      filter: "progid:DXImageTransform.Microsoft.Shadow(color='#000000', Direction=135, Strength=13)", // ie8
       position: "fixed",
       marginRight: "auto",
       maxWidth: "90%",
@@ -96,7 +98,8 @@
     $('<div id="lightboxOverlay' + simpleUid + '"><img id="lightboxImage' + simpleUid + '" src="" alt="empty image"/></div>').appendTo($('body'));
 
     var im = $("#lightboxImage" + simpleUid),
-      ovl = $("#lightboxOverlay" + simpleUid);
+      ovl = $("#lightboxOverlay" + simpleUid),
+      jqueryWin = $(window);
 
     ovl.addClass("lightboxOverlay");
     ovl.css(overlayStyles);
@@ -122,8 +125,8 @@
           ovl.fadeIn(cfg.fadeInDuration, function () {
             var width = readDims[1] || im.width(),
               height = readDims[2] || im.height(),
-              scaleWdth = window.innerWidth * 0.9 / width,
-              scaleHght = window.innerHeight * 0.9 / height;
+              scaleWdth = jqueryWin.width() * 0.9 / width,
+              scaleHght = jqueryWin.height() * 0.9 / height;
 
             if (scaleWdth < 1.0 || scaleHght < 1.0) { // scale image so it will always fit the screen nicely
               width *= scaleWdth < scaleHght ? scaleWdth : scaleHght;
