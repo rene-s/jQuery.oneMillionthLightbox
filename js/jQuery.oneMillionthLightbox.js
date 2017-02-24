@@ -59,7 +59,7 @@
  * Use either those, change this implementation for yourself (and regard the licence) or pay me to alter it.
  * I am available for hire.
  *
- * @author Rene Schmidt <omlb@reneschmidt.de>
+ * @author Rene Schmidt <omlb@sdo.sh>
  * @licence GPL-3 or commercial
  */
 (function ($) {

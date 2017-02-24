@@ -13,28 +13,7 @@ I just did this for learning purposes. There are better or more compatible imple
 
 # Demo
 
-Go to [my website](https://reneschmidt.de/wiki/index.php/page/view/OneMillionthLightbox,Start#toc-Demo) for a working demo.
-
-<div class="row">
- <div class="col-sm-6 col-md-3">
-    <a  class="lightbox thumbnail" title="Photo #1"
-href="https://www.reneschmidt.de/stash/img/demo/photo1_2034x1349.jpg"><img
-src="https://www.reneschmidt.de/stash/img/demo/photo1_226x150.jpg"
-alt="Photo #1" /></a>
-   </div>
-<div class="col-sm-6 col-md-3">
-<a class="lightbox thumbnail" title="Photo #2"
-href="https://www.reneschmidt.de/stash/img/demo/photo2_3264x2448.jpg"><img
-src="https://www.reneschmidt.de/stash/img/demo/photo2_200x150.jpg"
-alt="Photo #2" /></a>
- </div>
-<div class="col-sm-6 col-md-3">
-    <a class="lightbox thumbnail" title="Photo #3"
-href="https://www.reneschmidt.de/stash/img/demo/photo3_501x300.jpg"><img
-src="https://www.reneschmidt.de/stash/img/demo/photo3_251x150.jpg"
-alt="Photo #3" /></a>
- </div>
-</div>
+Go to [my website](https://sdo.sh/Wiki/index.php/page/view/OneMillionthLightbox,Start#) for a working demo.
 
 # Compatibility
 
@@ -55,12 +34,12 @@ browsers.
 
 Me:
 
-1. https://reneschmidt.de/wiki/index.php/page/view/OneMillionthLightbox,Start
-2. https://reneschmidt.de/
+1. https://sdo.sh/Wiki/index.php/page/view/OneMillionthLightbox,Start#
+2. https://sdo.sh/
 
 # Licence
 
-GPL v3 or commercial licence :) from github@reneschmidt.de. Do not use this in your closed source project
+GPL v3 or commercial licence :) from rene+_github@sdo.sh. Do not use this in your closed source project
 without paying me. I don't like that.
 
 # How to use:
@@ -115,4 +94,4 @@ For every image that you want to have lightboxed
 5. The a tag should have a title attribute
 
 If you do not like that... Well, you don't have to. There are LOADS of other fine lightbox implementations out there.
-Use either those, change this implementation for yourself (and regard the licence) or pay me to alter it. I am available [for hire](mailto:lightbox@reneschmidt.de).
+Use either those, change this implementation for yourself (and regard the licence) or pay me to alter it. I am available [for hire](mailto:lightbox@sdo.sh).
